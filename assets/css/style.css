@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px !important;
+}
+.row {
+    height: 100vh;
+}
+.container-fluid {
+    height: 100vh;
+    background-image: url('../img/background1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.btn {
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+}
+.btn-gray {
+    background-color: #e9ecef;
+    color: #495057;
+}
+.btn-gray:hover {
+    background-color: #dfe0e0;
+}
+.input-group-text {
+    width: 7vw;
+    max-width: 7vw;
+    min-width: 7vw;
+}
+.required {
+    color: red;
+}
+.success {
+    color: green !important;
+}
+.warning {
+    color: rgb(219, 179, 0);
+}
